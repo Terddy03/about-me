@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+  
+
+body {
+    background-image: url('Background2.png');margin-left: 300px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000000;
+}
+
+header .navbar {
+    display: flex; /*align the header in a straight manner*/
+    align-items: center;
+    max-width: 1200px;
+    margin:0 auto;
+    justify-content: space-between;
+
+}
+
+.navbar .logo {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.navbar .logo span {
+    color: #ec0022;
+}
+
+.navbar .menu-links {
+    display: flex;
+    gap: 40px;
+}
+
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+
+}
+
+.navbar a:hover{
+    color: #ec0022;
+}
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+
+}
+
+.hero-section .content {
+    color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 500px;
+    backdrop-filter: blur(8px); /* Apply blur effect */
+
+}
+
+.hero-section .content p {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+    
+}
+.hero-section .content button {
+    background: #000000;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero-section .content button:hover{
+    color: #fff;
+    background: #ec0022;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the pseudo-element behind the content */
+    background-image: url('Background2.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px); /* Adjust the blur value as needed */
+}
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('Background2.png');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5); /* Adjust the brightness value as needed */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative; /* Ensure the pseudo-element is positioned relative to the body */
+    background: transparent; /* Set body background to transparent */
+}
+.logo-image {
+    font-size: 2.1rem;
+            font-weight: 600;
+    
+}
+.frames{
+    width: 100%;
+    height: 100%;
+
+
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Style for the hero section */
+ 
+
+.hero-section .framevid {
+    width: 40%;
+    height: 60%;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    margin-top: 5%;
+    margin-left: 2%;
+    border-radius: 10px; /* Border radius */
+    
+}
+.hero-section .suit1 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 45%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit2 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 52.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit3 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 60%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit4 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 67.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit5 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 75%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit6 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:31%;
+    left: 82.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit7 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 45%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit8 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 52.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit9 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 60%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit10 img{
+    width: 7%;
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 67.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit11 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 75%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+.hero-section .suit12 img{
+    width: 7%;
+    
+    position: absolute;
+    border: 2px solid #ec0022; /* Border style, color, and width */
+    top:58%;
+    left: 82.5%;
+    border-radius: 2px; /* Border radius */
+    background-size: cover;
+}
+
+.hero-section  h3{
+    color: #fff;
+    position: absolute ;
+    top: 25%;
+    right: 16%;
+    
+}
